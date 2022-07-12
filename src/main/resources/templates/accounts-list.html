@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Accounts</title>
+</head>
+<body>
+<div th:switch="${accounts}">
+    <h2 th:case="null">No accounts found!</h2>
+    <div th:case="*">
+        <h2>Accounts</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Account type</th>
+                <th>Balance</th>
+                <th>Creating Date</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="account : ${accounts}">
+                <td th:text="${account.id}"></td>
+                <td th:text="${account.accountType}"></td>
+                <td th:text="${account.balance}"></td>
+                <td th:text="${account.date}"></td>
+                <td th:text="${account.status}"></td>
+            </tr>
+            </tbody>
+        </table>
+</body>
+</html>
