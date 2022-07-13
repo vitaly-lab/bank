@@ -31,8 +31,7 @@ public class Account {
     @Column(name = "status")
     private String status;
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_id")
+    @ManyToOne(fetch = FetchType.EAGER, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
-
 }

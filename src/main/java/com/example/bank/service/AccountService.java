@@ -2,7 +2,6 @@ package com.example.bank.service;
 
 import com.example.bank.model.Account;
 import com.example.bank.repository.AccountRepository;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,11 +21,11 @@ public class AccountService {
         return accountRepository.findAll();
     }
 
-    public List<Account> findAccountsByUser(User user) {
-        return findAccountsByUser(user);
+    public List<Account> findAccounUser(String lastName) {
+        return accountRepository.findAccountByUserLastName(lastName);
     }
 
-    public Account findAccountsByStatus() {
-        return findAccountsByStatus();
+    public List<Account> findStatus() {
+        return accountRepository.findAccountsByStatus("main");
     }
 }
