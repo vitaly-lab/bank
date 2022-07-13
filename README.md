@@ -1,4 +1,4 @@
-Bank spring application
+### Bank spring application
 
 Task:
 Design and implement a REST API that allows to manage Users and their Accounts.
