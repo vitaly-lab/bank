@@ -6,7 +6,7 @@
 
 * Java - 1.7.x
 
-* Maven - 3.x.x
+* Maven - 3.6.x
 
 * PostgreSQL - 14.x
 
