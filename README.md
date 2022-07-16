@@ -4,11 +4,11 @@
 
 ### Requirements
 
-* Java - 1.8.x
+* Java - 1.7.x
 
 * Maven - 3.x.x
 
-* PostgreSQL - 5.x.x
+* PostgreSQL - 14.x
 
 Steps to Setup
 
@@ -29,3 +29,7 @@ Steps to Setup
   *   java -jar target/bank-0.0.1-SNAPSHOT.war
   *   Alternatively, you can run the app without packaging it using -
   *   mvn spring-boot:run
+
+
+
+
