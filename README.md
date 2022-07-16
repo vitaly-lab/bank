@@ -26,6 +26,6 @@ Steps to Setup
 3. Build and run the app using maven
 
   *   mvn package
-  *   java -jar target/spring-boot-rest-user-crud-1.0.0.jar
+  *   java -jar target/bank-0.0.1-SNAPSHOT.war
   *   Alternatively, you can run the app without packaging it using -
   *   mvn spring-boot:run
