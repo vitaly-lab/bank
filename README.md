@@ -4,11 +4,11 @@
 
 ### Requirements
 
-* Java - 1.8.x
+* Java - 1.7.x
 
 * Maven - 3.x.x
 
-* PostgreSQL - 5.x.x
+* PostgreSQL - 14.x
 
 Steps to Setup
 
