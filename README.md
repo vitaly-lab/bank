@@ -4,7 +4,7 @@
 
 ### Requirements
 
-* Java - 1.7.x
+* Java - 17
 
 * Maven - 3.6.x
 
