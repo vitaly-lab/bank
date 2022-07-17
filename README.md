@@ -8,7 +8,7 @@
 
 * Maven - 3.6.x
 
-* PostgreSQL - 14.x
+* PostgreSQL - 10.x
 
 Steps to Setup
 
